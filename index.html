@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Equipo 7 - Rehapp</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="terapia rehabilitación" name="keywords">
+    <meta content="Fisioterapia de Mano" name="description">
+
+    <!-- Bootstrap -->
+     <!-- CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <link rel="icon" href="img/logo7_.png" type="image/x-icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Chat en vivo -->
+    <script class="chat_vivo" src="//code.tidio.co/djcoadcthzpkaeqosmiqnhi1e5dyz9w1.js" async></script>
+
+    
+</head>
+
+<!-- Header Modal Start -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">¡Bienvenido!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <form>
+                <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Asunto:</label>
+                <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                <label for="message-text" class="col-form-label">Mensaje:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+                </div>
+            </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Enviar Mensaje</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+    <body>
+
+    <!-- Header Start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 bg-secondary d-none d-lg-block">
+                <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                    <!-- <h1 class="m-0 display-4 text-primary text-uppercase">Rehapp</h1> -->
+                    <img src="/img/logo7_.png" alt="logo_company" class="logo img-fluid mx-auto">
+                </a>
+            </div>
+            <div class="col-lg-9">
+                <div class="row bg-white border-bottom d-none d-lg-flex">
+                    <div class="col-lg-7 text-left">
+                        <div class="h-100 d-inline-flex align-items-center py-2 px-3">
+                            <i class="fa fa-envelope text-primary mr-2"></i>
+                            <small>sieterehapp@gmail.com</small>
+                        </div>
+                        <div class="h-100 d-inline-flex align-items-center py-2 px-2">
+                            <i class="fa fa-phone-alt text-primary mr-2"></i>
+                            <small>+57 310 123 4567</small>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-right">
+                        <div class="d-inline-flex align-items-center p-2">
+                            <!-- <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a> -->
+                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
+                    <a href="index.html" class="navbar-brand d-block d-lg-none">
+                        <h1 class="m-0 display-4 text-primary text-uppercase">SIE7E</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0">
+                            <a href="index.html" class="nav-item nav-link active">Nosotros</a>
+                            <a href="equipo7.html" class="nav-item nav-link">Equipo 7</a>
+                            <a href="app.html" class="nav-item nav-link">App</a>                            
+                            <a href="contacto.html" class="nav-item nav-link">Contacto</a>
+                        </div>                      
+                            
+                            
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="">Ayuda y Sugerencias</button>
+                            <!-- <a href="" class="btn btn-primary mr-3 d-none d-lg-block">Ayuda y Sugerencias</a>
+                    </div> -->
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Carousel Start -->
+
+    <div class="container-fluid p-0 mb-5 pb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/carousel-1.svg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-3 text-warning">¡Bienvenido a REHAPP!</h1>
+                            <h3 class="text-white mb-4">Nuestra Aplicación esta especialmente diseñada para apoyar tu proceso de Rehabilitación física de manera cómoda y efectiva.</h3>
+                                <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="#">Conoce +</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/carousel-2.svg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white mb-4" style="letter-spacing: 3px;">¡No tienes que salir de tu casa para realizar las rutinas,</h4>
+                            <h3 class="display-4 text-warning mb-4">con tu dispositivo móvil puedes acceder a ellas sin ningún inconveniente!</h3> 
+                            <a class="btn btn-primary py-3 px-5 mt-2" href="https://play.google.com/store/search?q=rehabilitaci%C3%B3n+fisica&c=apps&hl=es_419" target="_blank">Descarga Ahora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-lg btn-secondary btn-lg-square">
+                    <span class="carousel-control-prev-icon"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-lg btn-secondary btn-lg-square">
+                    <span class="carousel-control-next-icon"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img class="img-fluid rounded shadow" src="img/about.svg" alt="">
+                </div>
+                <div class="col-lg-7 mt-4 mt-lg-0">
+                    <h3 class="position-relative text-center bg-white text-success rounded p-3 mt-4 mb-4 d-none d-lg-block shadow" style="width: 750px; margin-left: -205px;">"Salud en tus manos, recuperación a tu alcance".</h3>
+                    <h6 class="text-uppercase">Aprende sobre Nosotros</h6>
+                    <h2 class="mb-4">APLICACIÓN MÓVIL PARA LA REHABILITACIÓN FÍSICA DE MANO</h2>
+                    <p style="font-size: smaller;">Herramienta interactiva para tratar las
+                        lesiones físicas de la mano. A partir de un dispositivo móvil y desde la comodidad del hogar se
+                        podrá acceder a secciones de terapia física, y por un motivo u otro se le dificulte o de manera
+                        decisiva no acuda sus terapias causando en ella misma un desacopleamiento físico.</p>
+                    <a href="app.html" class="btn btn-primary mt-2">Aprende Más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid py-5 bg-secondary">
+        <div class="container py-5">
+            <div class="row">
+                <div class="container col-12 text-center">
+                    <img src="/img/Logo_Rehapp.png" alt="logo" class="img-fluid mx-auto" style="width: 300px;"><br><br><br>  
+                </div>                
+                <div class="col-lg-3">                    
+                    <h5 class="text-uppercase text-success">Aplicación Móvil</h5>
+                    <h3 class="mb-4 text-white">Herramienta interactiva para tratar las
+                        lesiones físicas de la mano.</h3>                    
+                    <p class="text-white" style="font-size: small;">En nuestra empresa nos comprometemos a liderar el camino en la creación de soluciones tecnológicas e innovadoras que cumplan con las necesidades y expectativas de nuestros clientes.</p>
+                    <!-- <a href="" class="btn btn-primary mt-2">Más Información</a> -->
+                </div>
+                <div class="col-lg-9 pt-5 pt-lg-0">
+                    <div class="bg-warning rounded" style="height: 200px;"></div>
+                    <div class="owl-carousel service-carousel position-relative" style="margin-top: -100px; padding: 0 30px;">
+                        <div class="d-flex flex-column align-items-center text-center bg-white rounded">
+                            <!-- <div class="icon-box bg-secondary text-primary mt-2 mb-4">
+                                <i class="fa fa-2x fa-landmark"></i>
+                            </div>
+                            <h5 class="mb-4 px-4">Civil Law</h5>
+                            <p class="m-0">Takim stet justo elitr sea eirmod vero ipsum. Sed Stet clita sit duo dolor stet at at. Tempor dolor sit ipsum</p> -->
+                            <img src="/img/diseño_UI_rehapp/Splash.png" alt="Splash" class="shadow">
+                        </div>
+                        <div class="d-flex flex-column align-items-center text-center bg-white rounded">
+                            <!-- <div class="icon-box bg-secondary text-primary mt-2 mb-4">
+                                <i class="fa fa-2x fa-users"></i>
+                            </div>
+                            <h5 class="mb-4 px-4">Family Law</h5>
+                            <p class="m-0">Takim stet justo elitr sea eirmod vero ipsum. Sed Stet clita sit duo dolor stet at at. Tempor dolor sit ipsum</p> -->
+                            <img src="/img/diseño_UI_rehapp/Inicio.png" alt="Inicio" class="shadow">
+                        </div>
+                        <div class="d-flex flex-column align-items-center text-center bg-white rounded">
+                            <!-- <div class="icon-box bg-secondary text-primary mt-2 mb-4">
+                                <i class="fa fa-2x fa-hand-holding-usd"></i>
+                            </div>
+                            <h5 class="mb-4 px-4">Business Law</h5>
+                            <p class="m-0">Takim stet justo elitr sea eirmod vero ipsum. Sed Stet clita sit duo dolor stet at at. Tempor dolor sit ipsum</p> -->
+                            <img src="/img/diseño_UI_rehapp/Log In.png" alt="LogIn" class="shadow">
+                        </div>
+                        <div class="d-flex flex-column align-items-center text-center bg-white rounded ">
+                            <!-- <div class="icon-box bg-secondary text-primary mt-2 mb-4">
+                                <i class="fa fa-2x fa-gavel"></i>
+                            </div>
+                            <h5 class="mb-4 px-4">Criminal Law</h5>
+                            <p class="m-0">Takim stet justo elitr sea eirmod vero ipsum. Sed Stet clita sit duo dolor stet at at. Tempor dolor sit ipsum</p> -->
+                            <img src="/img/diseño_UI_rehapp/Bienvenido.png" alt="Bienvenido" class="shadow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Appointment Start -->
+    <div class="container-fluid py-2 bg-success" id="form">
+        <div class="container py-2">
+            <div class="rounded">
+                <div class="row h-100 align-items-center justify-content-center">
+                    <div class="col-lg-6 py-2">
+                        <div class="rounded p-5 my-5 shadow" style="background: rgba(48, 48, 51, 0.5);">
+                            <h1 class="text-center text-white mb-4">¡Suscríbete a nuestro Newsletter!</h1>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control border-0 p-4" placeholder="Tu nombre" required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control border-0 p-4" placeholder="Tu Email" required="required" />
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-6">
+                                        <!-- <div class="form-group">
+                                            <div class="date" id="date" data-target-input="nearest">
+                                                <input type="text" class="form-control border-0 p-4 datetimepicker-input" placeholder="Selecciona la fecha" data-target="#date" data-toggle="datetimepicker"/>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                    <div class="col-6">
+                                        <!-- <div class="form-group">
+                                            <div class="time" id="time" data-target-input="nearest">
+                                                <input type="text" class="form-control border-0 p-4 datetimepicker-input" placeholder="Select Time" data-target="#time" data-toggle="datetimepicker"/>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <!-- <div class="form-group">
+                                    <select class="custom-select border-0 px-4" style="height: 47px;">
+                                        <option selected>Selecciona un Servicio</option>
+                                        <option value="1">Desarrollo de Apps para Salud</option>
+                                        <option value="2">Diseño y Creación de Páginas Web</option>
+                                        <option value="3">Desarrollo de Software</option>
+                                    </select>
+                                </div> -->
+                                <div>
+                                    <button class="btn btn-primary btn-block border-0 py-3" type="submit">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+
+
+    <!-- Features Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100 rounded overflow-hidden">
+                        <img class="position-absolute w-100 h-100 shadow" src="img/banner.svg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 pb-lg-5">
+                    <div class="feature-text bg-secondary rounded p-lg-5">
+                        <div class="containerr m-2 p-4">
+                            <h4 class="text-uppercase text-white text-center">Nuestros Valores</h4>
+                            <h1 class="mb-4 text-success text-center">El Corazón de Nuestra Misión</h1>
+                            <div class="d-flex mb-4">
+                                <div class="btn-primary btn-lg-square px-3" style="border-radius: 50px;">
+                                    <h5 class="text-white m-0">01</h5>
+                                </div>
+                                <div class="ml-4 text-white">
+                                    <h5 class="text-white">Calidad</h5>
+                                    <p class="m-0" style="font-size: small;">En Rehapp, la calidad es el pilar fundamental de todo lo que hacemos. Nos comprometemos a ofrecer una experiencia de rehabilitación de primer nivel, respaldada por investigación científica y tecnología de vanguardia.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-4 text-white">
+                                <div class="btn-primary btn-lg-square px-3" style="border-radius: 50px;">
+                                    <h5 class="text-white m-0">02</h5>
+                                </div>
+                                <div class="ml-4">
+                                    <h5 class="text-white">Responsabilidad</h5>
+                                    <p class="m-0" style="font-size: small;">Entendemos el impacto que nuestro trabajo tiene en la vida de las personas. Por eso, asumimos con seriedad la responsabilidad de proporcionar contenido preciso, seguro y efectivo.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="btn-primary btn-lg-square px-3" style="border-radius: 50px;">
+                                    <h5 class="text-white m-0">03</h5>
+                                </div>
+                                <div class="ml-4 text-white">
+                                    <h5 class="text-white">Orientación al Cliente</h5>
+                                    <p class="m-0" style="font-size: small;">En Rehapp, tú eres el centro de todo lo que hacemos. Nuestra aplicación está diseñada pensando en tus necesidades específicas, ofreciendo una experiencia personalizada y adaptable. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+    <!-- Action Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5" style="background-color: rgb(51, 84, 85);">           
+            <div class="rounded img-fluid mx-auto">                
+                <div class="row h-100 align-items-center justify-content-center">
+                    <div class="col-lg-7 text-center">                        
+                        <h1 class="text-white mb-4">¡Trabajamos constantemente para mejorar y evolucionar nuestra plataforma!</h1>
+                        <h5 class="text-white">Tu éxito en la rehabilitación es nuestro objetivo primordial, y estamos comprometidos a acompañarte en cada paso de tu camino hacia la recuperación.</h5>
+                        <a class="btn btn-secondary py-3 px-5 mt-2" href="contacto.html">¡Contáctanos!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Action End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5 bg-secondary">
+        <div class="container py-5">
+            <div class="text-center pb-2">
+                <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                    <img src="/img/logo7_.png" alt="logo_company" class="logo img-fluid mx-auto">
+                </a>
+                <!-- <h6 class="text-uppercase">Equipo 7 </h6> -->
+                <h1 class="mb-4 text-white py-3">¡Nuestro Dream Team!</h1>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="bg-warning rounded" style="height: 200px;"></div>
+                    <div class="owl-carousel team-carousel position-relative" style="margin-top: -97px; padding: 0 30px;">
+                        <div class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <h5 class="mb-2 px-4">Jhudy Moreno</h5>
+                            <p class="mb-3 px-4">Desarrolladora de Software</p>
+                            <div class="team-img position-relative">
+                                <img class="img-fluid" src="img/jhudy.png" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <h5 class="mb-2 px-4">Alexander Fernandez</h5>
+                            <p class="mb-3 px-4">Desarrollador de Software</p>
+                            <div class="team-img position-relative">
+                                <img class="img-fluid" src="img/yisus.png" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <h5 class="mb-2 px-4">Fredy Ramírez</h5>
+                            <p class="mb-3 px-4">Desarrollador de Software</p>
+                            <div class="team-img position-relative">
+                                <img class="img-fluid" src="img/fredy.png" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <h5 class="mb-2 px-4">Juan Figueroa</h5>
+                            <p class="mb-3 px-4">Desarrollador de Software</p>
+                            <div class="team-img position-relative">
+                                <img class="img-fluid" src="img/juan.png" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <h5 class="mb-2 px-4">Sebastian Espinoza</h5>
+                            <p class="mb-3 px-4">Desarrollador de Software</p>
+                            <div class="team-img position-relative">
+                                <img class="img-fluid" src="img/sebas.png" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <h5 class="mb-2 px-4">Leonardo Beltrán</h5>
+                            <p class="mb-3 px-4">Desarrollador de Software</p>
+                            <div class="team-img position-relative">
+                                <img class="img-fluid" src="img/leo.png" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <h5 class="mb-2 px-4">John Correa</h5>
+                            <p class="mb-3 px-4">Desarrollador de Software</p>
+                            <div class="team-img position-relative">
+                                <img class="img-fluid" src="img/jota.png" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center pb-5">
+                <h6 class="text-uppercase">Testimoniales</h6>
+                <h1 class="mb-5">¡Lo que dicen nuestros usuarios!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item">
+                    <div class="testimonial-text position-relative bg-secondary text-light text-center rounded p-5 mb-4" style="font-size: small;">
+                        "Rehapp ha sido una verdadera bendición en mi proceso de recuperación. Después de mi cirugía de túnel carpiano, estaba preocupada por cómo recuperaría la movilidad en mi mano. Los videos interactivos de Rehapp no solo me guiaron a través de ejercicios efectivos, sino que también me motivaron a mantener una rutina constante. ¡Gracias por hacer mi rehabilitación tan accesible y efectiva!"
+                    </div>
+                    <div class="d-flex align-items-center pt-3">
+                        <img class="img-fluid rounded-circle" src="img/testimonial-1.png" style="width: 80px; height: 80px;" alt="">
+                        <div class="pl-4">
+                            <h5>Mónica</h5>
+                            <p class="m-0">45 años - Recuperándose de una lesión en la muñeca.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-text position-relative bg-secondary text-light text-center rounded p-5 mb-4" style="font-size: small;">
+                        "Siempre he luchado para mantener la movilidad en mis manos. Rehapp ha cambiado completamente mi enfoque hacia el cuidado de mis articulaciones. Los ejercicios son suaves pero efectivos, y puedo hacerlos a mi propio ritmo. Desde que comencé a usar Rehapp, he notado una disminución en el dolor y una mayor facilidad para realizar tareas cotidianas."<br><br>
+                    </div>
+                    <div class="d-flex align-items-center pt-3">
+                        <img class="img-fluid rounded-circle" src="img/testimonial-2.png" style="width: 80px; height: 80px;" alt="">
+                        <div class="pl-4">
+                            <h5>Rodomina</h5>
+                            <p class="m-0">25 años - con dolor en las articulaciones</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-text position-relative bg-secondary text-light text-center rounded p-5 mb-4" style="font-size: small;">
+                        "Estoy impresionada con la calidad y la precisión de los ejercicios en Rehapp. He recomendado la aplicación a varios de mis amigos y los resultados han sido sorprendentes. La interfaz es agradable y los videos son claros y fáciles de seguir. Lo que más me gusta es cómo la app me permite continuar mis terapias en casa, complementando perfectamente las sesiones presenciales."
+                    </div>
+                    <div class="d-flex align-items-center pt-3">
+                        <img class="img-fluid rounded-circle" src="img/testimonial-3.png" style="width: 80px; height: 80px;" alt="">
+                        <div class="pl-4">
+                            <h5>Valeria</h5>
+                            <p class="m-0">28 años - dolor en las muñecas por malos hábitos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-text position-relative bg-secondary text-light text-center rounded p-5 mb-4" style="font-size: small;">
+                        "Una lesión en la mano puede ser devastadora. Cuando me lastimé mientras realizaba mis labores pensé que mi trabajo pudiera estar en peligro. La aplicación me ofreció un programa de rehabilitación personalizado que se adaptaba perfectamente a mis necesidades como paciente. La aplicación me ha permitido a mantener la motivación incluso en los días difíciles."
+                    </div>
+                    <div class="d-flex align-items-center pt-3">
+                        <img class="img-fluid rounded-circle" src="img/testimonial-4.png" style="width: 80px; height: 80px;" alt="">
+                        <div class="pl-4">
+                            <h5>Janeth</h5>
+                            <p class="m-0">38 años - Recuperándose de un esguince</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+
+    <!--flotante-->
+    <div class="floating-button">
+        <a href="https://chat.whatsapp.com/Ed7S4Z3nQwYLgJLr3AlAno" target="_blank">
+            <img src="img/whatsapp.png" alt="WhatsApp Icon">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+    </div>
+
+
+    <!-- Footer Start -->
+    
+    <div class="container-fluid bg-secondary text-white pt-5 px-sm-3 px-md-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+            <div class="mb-5 container text-center">
+                <a href="index.html" class="navbar-brand">                    
+                    <img src="/img/logo7_.png" alt="logo_company" class="logo_footer img-fluid">
+                </a>
+            
+                <div class="mb-5 justify-content-center">               
+                    <div class="d-flex justify-content-center mt-4">
+                        <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>               
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-4">
+                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                    <i class="fa fa-4x fa-map-marker-alt text-uppercase"></i>
+                    <div class="ml-3">
+                        <h5 class="text-white">Nuestra Oficina</h5>
+                        <p class="m-0">Cenigraf Sena - Bogotá, Colombia</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                    <i class="fa fa-4x fa-envelope-open text-uppercase"></i>
+                    <div class="ml-3">
+                        <h5 class="text-white">Nuestro E-mail</h5>
+                        <p class="m-0">sieterehapp@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                    <i class="fa fa-4x fa-phone-alt text-uppercase"></i>
+                    <div class="ml-3">
+                        <h5 class="text-white">¡Llamanos!</h5>
+                        <p class="m-0">+57 316 789321</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row p-4 mt-5 mx-0" style="background: rgba(135, 148, 204, 0.05);">
+            <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                <p class="m-0 text-white">&copy; <a class="font-weight-bold" href="#">Equipo 7 Inc.</a>. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <p class="m-0 text-white">Proyecto Formativo <a class="font-weight-bold" href="https://www.sena.edu.co">ADSO 2670271</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-primary px-3 back-to-top"><i class="fa fa-angle-double-up"></i></a> -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+    <!-- Script Back to Top -->
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+            function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+            }
+        
+        // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            }
+            </script>
+
+
+        <!-- END Script Back to Top -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
